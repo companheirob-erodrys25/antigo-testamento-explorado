@@ -2,6 +2,8 @@
 import React from 'react';
 import { cn } from '@/lib/utils';
 import { BookOpen, Map, Star, Globe, Clock, Users } from 'lucide-react';
+import bookmockup from './../img/bookmockup.png'
+import screensmockup from './../img/screensmockup.png'
 
 interface FeaturesProps {
   className?: string;
@@ -22,7 +24,7 @@ const FeatureCard: React.FC<FeatureCardProps> = ({ title, icon, important }) => 
         : "border-papyrus-300"
     )}>
       <div className={cn(
-        "h-10 w-10 flex items-center justify-center rounded-full",
+        "h-10 w-40 flex items-center justify-center rounded-full",
         important 
           ? "bg-accent text-white" 
           : "bg-papyrus-300 text-ancient-800"
@@ -56,7 +58,13 @@ const Features: React.FC<FeaturesProps> = ({ className }) => {
         <h2 className="text-3xl md:text-4xl font-serif font-bold text-center mb-12 text-ancient-900">
           O ANTIGO TESTAMENTO COMO VOCÊ NUNCA VIU!
         </h2>
-        
+
+        <img 
+            src={bookmockup} 
+            alt="Companheiro Bíblico" 
+            className="max-w-md mx-auto mt-4  rounded-md" 
+          />
+        <br/>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 max-w-5xl mx-auto">
           {features.map((feature, index) => (
             <FeatureCard
@@ -68,31 +76,25 @@ const Features: React.FC<FeaturesProps> = ({ className }) => {
           ))}
         </div>
         
-        <div className="mt-16 grid grid-cols-1 md:grid-cols-3 gap-8 max-w-5xl mx-auto">
+        <div className="w-full flex flex-col items-center justify-center">
           <div className="ancient-border h-full flex flex-col items-center justify-center p-8 text-center">
             <h3 className="text-xl font-serif font-bold mb-3">Acesse Agora mesmo</h3>
-            <BookOpen className="h-12 w-12 text-accent my-3" />
-          </div>
-          
-          <div className="ancient-border h-full flex flex-col items-center justify-center p-8 text-center">
             <h3 className="text-xl font-serif font-bold mb-3">Com qualquer dispositivo</h3>
-            <Globe className="h-12 w-12 text-accent my-3" />
-          </div>
-          
-          <div className="ancient-border h-full flex flex-col items-center justify-center p-8 text-center">
             <h3 className="text-xl font-serif font-bold mb-3">Em qualquer lugar do mundo</h3>
-            <Map className="h-12 w-12 text-accent my-3" />
-          </div>
+         
         </div>
-        
-        <div className="text-center mt-8">
-          <p className="text-2xl font-serif font-bold mb-3"># + de 500 páginas de estudos</p>
-          <p className="text-lg">acesse:</p>
-          <img 
-            src="/book-mockup.png" 
-            alt="Companheiro Bíblico" 
-            className="max-w-md mx-auto mt-4 shadow-lg rounded-md" 
+        </div>
+        <img 
+            src={screensmockup} 
+            alt="screens" 
+            className="max-w-md mx-auto mt-4 rounded-md" 
           />
+        <div className="text-center mt-8">
+             
+     
+          <p className="text-2xl font-serif font-bold mb-3">+ de 500 páginas de estudos</p>
+          <p className="text-lg">acesse:</p>
+  
         </div>
       </div>
     </section>

@@ -2,6 +2,7 @@
 import React from 'react';
 import { cn } from '@/lib/utils';
 import { Check } from 'lucide-react';
+import './stylescustom.css';
 
 interface PricingProps {
   className?: string;
@@ -15,7 +16,7 @@ const Pricing: React.FC<PricingProps> = ({ className }) => {
           VEJA TUDO O QUE VOCÊ IRÁ RECEBER, E APROVEITE AS CONDIÇÕES ESPECIAIS!
         </h2>
         
-        <div className="max-w-4xl mx-auto">
+        <div className="max-w-4xl mx-auto" id="pricing-CompBiblic">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
             {/* Product Cards */}
             <div className="space-y-6">
@@ -81,14 +82,7 @@ const Pricing: React.FC<PricingProps> = ({ className }) => {
                 </div>
               </div>
               
-              <a 
-                href="https://pay.hotmart.com/R98259121Y" 
-                target="_blank" 
-                rel="noopener noreferrer" 
-                className="bg-accent text-white py-5 text-center text-xl font-bold rounded-b-lg hover:bg-accent-highlight transition-colors"
-              >
-                QUERO ESTUDAR A BÍBLIA AGORA
-              </a>
+              
               
               <div className="bg-white/80 backdrop-blur-sm mt-6 p-6 rounded-lg border border-papyrus-300">
                 <h3 className="text-xl font-serif font-bold mb-4 text-center">UÉ, MAS POR QUE ESTÁ ASSIM TÃO BARATO?</h3>
@@ -121,17 +115,21 @@ const Pricing: React.FC<PricingProps> = ({ className }) => {
                 </div>
               </div>
               
-              <a 
+         
+            </div>
+        
+          </div>
+          <a 
                 href="https://pay.hotmart.com/R98259121Y" 
                 target="_blank" 
-                rel="noopener noreferrer" 
-                className="cta-button w-full text-center mt-6"
+                rel="noopener noreferrer"
+                id="ctamain"
+                
               >
                 QUERO APRENDER A BÍBLIA AGORA MESMO
               </a>
-            </div>
-          </div>
         </div>
+       
       </div>
     </section>
   );
