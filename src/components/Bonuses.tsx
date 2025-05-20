@@ -2,6 +2,9 @@
 import React from 'react';
 import { cn } from '@/lib/utils';
 import { BookOpen } from 'lucide-react';
+import bonus1 from './../img/BONUS1.png'
+import bonus2 from './../img/BONUS2.png'
+import bonus3 from './../img/BONUS3.png'
 
 interface BonusesProps {
   className?: string;
@@ -22,7 +25,7 @@ const Bonuses: React.FC<BonusesProps> = ({ className }) => {
               <div className="md:w-1/3">
                 <div className="relative">
                   <img 
-                    src="/bonus-book-1.png" 
+                    src={bonus1} 
                     alt="A Família que Deus Constrói" 
                     className="w-full h-auto rounded-md shadow-lg"
                   />
@@ -51,7 +54,7 @@ const Bonuses: React.FC<BonusesProps> = ({ className }) => {
               <div className="md:w-1/3">
                 <div className="relative">
                   <img 
-                    src="/bonus-book-2.png" 
+                    src={bonus2}
                     alt="Os Fundamentos que todo Cristão Precisa Saber" 
                     className="w-full h-auto rounded-md shadow-lg"
                   />
@@ -83,7 +86,7 @@ const Bonuses: React.FC<BonusesProps> = ({ className }) => {
               <div className="md:w-1/3">
                 <div className="relative">
                   <img 
-                    src="/reading-plan.png" 
+                    src={bonus3} 
                     alt="Plano de Leitura Bíblica Anual" 
                     className="w-full h-auto rounded-md shadow-lg"
                   />

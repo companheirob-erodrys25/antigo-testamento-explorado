@@ -20,13 +20,9 @@ const Professors: React.FC<ProfessorsProps> = ({ className }) => {
               <img 
                 src="/pastor-profile.jpg" 
                 alt="Pastor Elias Rodrys" 
-                className="w-40 h-40 object-cover rounded-full border-4 border-accent" 
+                id="pastores" 
               />
-              <img 
-                src="/pastor-wife.jpg" 
-                alt="Cintia Rodrys" 
-                className="w-40 h-40 object-cover rounded-full border-4 border-accent" 
-              />
+              
             </div>
             
             <div className="flex-1">
