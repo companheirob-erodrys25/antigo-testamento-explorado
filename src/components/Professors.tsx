@@ -1,6 +1,7 @@
 
 import React from 'react';
 import { cn } from '@/lib/utils';
+import { Card, CardContent } from '@/components/ui/card';
 
 interface ProfessorsProps {
   className?: string;
@@ -17,12 +18,19 @@ const Professors: React.FC<ProfessorsProps> = ({ className }) => {
         <div className="max-w-4xl mx-auto ancient-border">
           <div className="flex flex-col md:flex-row gap-8 items-center md:items-start">
             <div className="flex flex-col gap-4 items-center">
-              <img 
-                src="/pastor-profile.jpg" 
-                alt="Pastor Elias Rodrys" 
-                id="pastores" 
-              />
-              
+              <Card className="overflow-hidden border-2 border-ancient-600 shadow-lg w-full max-w-md">
+                <CardContent className="p-0">
+                  <img 
+                    src="/lovable-uploads/f46dd5a2-5917-4620-92ca-c0535227d15e.png" 
+                    alt="Pastor Elias e Cintia Rodrys" 
+                    id="pastores"
+                    className="w-full h-auto object-cover rounded"
+                  />
+                </CardContent>
+              </Card>
+              <p className="text-center font-medium text-ancient-900">
+                Elias Rodrys & Cintia Rodrys
+              </p>
             </div>
             
             <div className="flex-1">
