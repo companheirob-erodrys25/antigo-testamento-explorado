@@ -42,10 +42,17 @@ const Hero: React.FC<HeroProps> = ({ className }) => {
           </p>
           
           <div className="bg-papyrus-300/90 p-6 md:p-10 rounded-lg shadow-lg ancient-border max-w-3xl mx-auto">
-            <div className="aspect-video w-full bg-black/10 flex items-center justify-center rounded-md mb-6">
-              <div className="text-lg text-center">
-                [Vídeo VSL Placeholder]
-              </div>
+            <div className="aspect-video w-full rounded-md mb-6 overflow-hidden">
+              <iframe
+                width="100%"
+                height="100%"
+                src="https://www.youtube.com/embed/sSoKVha9VKA"
+                title="Companheiro Bíblico - Antigo Testamento"
+                frameBorder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowFullScreen
+                className="w-full h-full"
+              ></iframe>
             </div>
             
             <button 
