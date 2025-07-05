@@ -48,7 +48,6 @@ const Hero: React.FC<HeroProps> = ({ className }) => {
                 height="100%"
                 src="https://www.youtube.com/embed/sSoKVha9VKA"
                 title="Companheiro Bíblico - Antigo Testamento"
-                frameBorder="0"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                 allowFullScreen
                 className="w-full h-full"

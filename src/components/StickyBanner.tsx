@@ -27,7 +27,7 @@ const StickyBanner: React.FC = () => {
         </div>
         <div className="flex-shrink-0">
           <a 
-            href="https://pay.hotmart.com/R98259121Y" 
+            href="https://pay.hotmart.com/M100606980W?checkoutMode=10" 
             target="_blank" 
             rel="noopener noreferrer" 
             className="cta-button inline-block px-5 py-2"

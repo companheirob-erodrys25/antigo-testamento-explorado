@@ -60,7 +60,7 @@ const Features: React.FC<FeaturesProps> = ({ className }) => {
         <img 
             src={bookmockup} 
             alt="Companheiro Bíblico" 
-            className="mx-auto mt-4  rounded-md" 
+            className="mx-auto mt-4 rounded-md max-w-[80%] md:max-w-[35%]" 
           />
         <br/>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 max-w-5xl mx-auto">
