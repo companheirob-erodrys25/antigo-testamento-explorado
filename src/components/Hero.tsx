@@ -41,7 +41,7 @@ const Hero: React.FC<HeroProps> = ({ className }) => {
             Tenha um companheiro bíblico completo para seu estudo!
           </p>
           
-          <div className="bg-papyrus-300/90 p-6 md:p-10 rounded-lg shadow-lg ancient-border max-w-3xl mx-auto">
+          <div className="bg-papyrus-300/90 p-6 md:p-10 rounded-lg shadow-lg ancient-border max-w-1xl mx-auto">
             <div className="aspect-video w-full rounded-md mb-6 overflow-hidden">
               <iframe
                 width="100%"

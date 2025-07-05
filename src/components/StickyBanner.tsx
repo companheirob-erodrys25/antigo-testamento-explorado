@@ -30,7 +30,7 @@ const StickyBanner: React.FC = () => {
             href="https://pay.hotmart.com/R98259121Y" 
             target="_blank" 
             rel="noopener noreferrer" 
-            className="inline-block bg-white text-accent font-bold px-5 py-2 rounded-md hover:bg-gray-100 transition-colors"
+            className="cta-button inline-block px-5 py-2"
           >
             Acesso imediato à área de membros
           </a>

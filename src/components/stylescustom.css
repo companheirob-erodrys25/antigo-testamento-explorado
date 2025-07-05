@@ -5,18 +5,17 @@
 }
 
 #ctamain{
-    background-color: #1de71d !important;
+    background: #00f37a;
+    color: black;
+    box-shadow: 2px 2px 55px -5px #00f37a;
     padding: 15px;
     font-family: Lato, sans-serif;
     border: solid 1px;
     border-radius: 25px;
     border-top-left-radius: 0;
     border-top-right-radius: 0;
-    box-shadow: 0px 0px 25px 5px #1de71d;
     transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
     border-radius: calc(var(--radius) - 2px);
-    --tw-bg-opacity: 1;
-    background-color: rgb(200 165 95 / var(--tw-bg-opacity, 1));
     padding-top: 1rem;
     padding-bottom: 1rem;
     padding-left: 2rem;
@@ -24,10 +23,6 @@
     font-size: 1.125rem;
     line-height: 1.75rem;
     font-weight: 700;
-    --tw-text-opacity: 1;
-    color: rgb(255 255 255 / var(--tw-text-opacity, 1));
-    --tw-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
-    --tw-shadow-colored: 0 10px 15px -3px var(--tw-shadow-color), 0 4px 6px -4px var(--tw-shadow-color);
     transition-property: all;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
     transition-duration: 150ms;

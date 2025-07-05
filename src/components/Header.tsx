@@ -42,7 +42,7 @@ const Header: React.FC = () => {
         
         <button 
           onClick={() => scrollToSection('pricing')}
-          className="bg-accent text-white px-4 py-2 rounded-md font-bold text-sm hover:bg-accent-highlight transition-colors"
+          className="cta-button px-4 py-2 text-sm"
         >
           Quero Aprender
         </button>

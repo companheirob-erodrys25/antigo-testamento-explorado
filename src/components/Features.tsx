@@ -25,9 +25,7 @@ const FeatureCard: React.FC<FeatureCardProps> = ({ title, icon, important }) => 
     )}>
       <div className={cn(
         "h-10 w-40 flex items-center justify-center rounded-full",
-        important 
-          ? "bg-accent text-white" 
-          : "bg-papyrus-300 text-ancient-800"
+         "bg-papyrus-300 text-ancient-800 max-w-20"
       )}>
         {icon}
       </div>
@@ -62,7 +60,7 @@ const Features: React.FC<FeaturesProps> = ({ className }) => {
         <img 
             src={bookmockup} 
             alt="Companheiro Bíblico" 
-            className="max-w-md mx-auto mt-4  rounded-md" 
+            className="mx-auto mt-4  rounded-md" 
           />
         <br/>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 max-w-5xl mx-auto">
@@ -76,26 +74,16 @@ const Features: React.FC<FeaturesProps> = ({ className }) => {
           ))}
         </div>
         
-        <div className="w-full flex flex-col items-center justify-center">
-          <div className="ancient-border h-full flex flex-col items-center justify-center p-8 text-center">
-            <h3 className="text-xl font-serif font-bold mb-3">Acesse Agora mesmo</h3>
-            <h3 className="text-xl font-serif font-bold mb-3">Com qualquer dispositivo</h3>
-            <h3 className="text-xl font-serif font-bold mb-3">Em qualquer lugar do mundo</h3>
-         
+        <div className="text-center mt-8">
+          <h1 className="text-xl font-serif font-bold mb-3">Acesse agora mesmo, com qualquer dispositivo, em qualquer lugar do mundo + de 500 páginas de estudos</h1>
         </div>
-        </div>
+          
+      
         <img 
             src={screensmockup} 
             alt="screens" 
-            className="max-w-md mx-auto mt-4 rounded-md" 
+            className="max-w-md mx-auto mt-4 rounded-md w-full" 
           />
-        <div className="text-center mt-8">
-             
-     
-          <p className="text-2xl font-serif font-bold mb-3">+ de 500 páginas de estudos</p>
-          <p className="text-lg">acesse:</p>
-  
-        </div>
       </div>
     </section>
   );

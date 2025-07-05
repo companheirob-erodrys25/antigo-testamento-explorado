@@ -1,9 +1,9 @@
 
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800&family=Lato:wght@300;400;700;900&display=swap');
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800&family=Lato:wght@300;400;700;900&display=swap');
 
 @layer base {
   :root {
@@ -104,7 +104,9 @@
   }
 
   .cta-button {
-    @apply bg-accent text-white py-4 px-8 rounded-md shadow-lg font-bold text-lg transition-all hover:bg-accent-highlight transform hover:scale-105 hover:shadow-xl focus:outline-none focus:ring-2 focus:ring-accent-highlight focus:ring-opacity-50;
-    background: linear-gradient(to bottom, #DFB962, #C8A55F);
+    @apply py-4 px-8 rounded-md shadow-lg font-bold text-lg transition-all transform hover:scale-105 hover:shadow-xl focus:outline-none focus:ring-2 focus:ring-opacity-50;
+    background: #00f37a;
+    color: black;
+    box-shadow: 2px 2px 55px -5px #00f37a;
   }
 }

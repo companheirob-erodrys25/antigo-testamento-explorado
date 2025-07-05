@@ -64,8 +64,8 @@ const TargetAudience: React.FC<TargetAudienceProps> = ({ className }) => {
             </p>
             
             <div className="mt-8 aspect-video w-full bg-black/10 flex items-center justify-center rounded-md">
-              <div className="text-lg text-center">
-                [Vídeo VSL Placeholder]
+              <div className="w-full text-center h-100">
+                <iframe width="100%" height="0px" src="https://www.youtube.com/embed/1X8qMKwChno" title="A HISTÓRIA DE ADÃO E EVA: O PRIMEIRO PECADO (Rodrigo Silva) | PrimoCast 428" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
               </div>
             </div>
           </div>
