@@ -30,11 +30,13 @@ const Hero: React.FC<HeroProps> = ({ className }) => {
       <div className="container mx-auto relative z-10">
         <div className="max-w-4xl mx-auto text-center space-y-8 animate-fade-in">
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-serif font-extrabold text-ancient-900 leading-tight">
-            APRENDA O ANTIGO TESTAMENTO DE FORMA RÁPIDA E PRÁTICA
+             Aprenda o antigo testamento em 30 dias, com apenas 25 minutos por dia
           </h1>
           
           <p className="text-xl md:text-2xl font-serif italic font-medium text-ancient-800">
-            <em>Não basta ler a Bíblia, é preciso compreendê-la.</em>
+            <em>- mesmo que nunca tenha lido a bíblia. 
+                <br/>- mesmo que não tenha teologia
+            </em>
           </p>
           
           <p className="text-lg md:text-xl">

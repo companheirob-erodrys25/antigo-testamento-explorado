@@ -78,7 +78,7 @@ const Pricing: React.FC<PricingProps> = ({ className }) => {
                   <p className="text-lg font-bold">Na oferta especial de HOJE, seu investimento será</p>
                   <p className="text-lg">de <span className="line-through text-gray-500">R$ 578,60</span> por apenas</p>
                   <p className="text-5xl font-serif font-extrabold text-accent my-3">R$ 127,00</p>
-                  <p className="text-lg font-bold">OU 10X DE R$ 14,80</p>
+                  <p className="text-lg font-bold">OU 10 x de R$ 15,26</p>
                 </div>
               </div>
               
