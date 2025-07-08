@@ -3,6 +3,7 @@ import React from 'react';
 import { cn } from '@/lib/utils';
 import { ScrollArea } from '@/components/ui/scroll-area';
 import { Book } from 'lucide-react';
+import compbiblogo from  './../img/logo.png'
 
 const Header: React.FC = () => {
   const scrollToSection = (id: string) => {
@@ -16,7 +17,7 @@ const Header: React.FC = () => {
     <header className="relative py-4 bg-papyrus-300/80 backdrop-blur-sm shadow-md z-10">
       <div className="container mx-auto flex justify-between items-center">
         <div className="flex items-center">
-          <Book className="h-8 w-8 text-accent mr-2" />
+          <img src={compbiblogo} className="h-8 w-8 text-accent mr-2" />
           <span className="font-serif font-bold text-xl hidden sm:block text-ancient-900">Companheiro Bíblico</span>
         </div>
         
