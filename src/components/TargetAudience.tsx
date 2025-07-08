@@ -65,8 +65,8 @@ const TargetAudience: React.FC<TargetAudienceProps> = ({ className }) => {
             
             <div className="mt-8 aspect-video w-full bg-black/10 flex items-center justify-center rounded-md">
               <div className="w-full text-center h-100">
-                <iframe width="100%" height="0px" src="https://www.youtube.com/embed/1X8qMKwChno" title="A HISTÓRIA DE ADÃO E EVA: O PRIMEIRO PECADO (Rodrigo Silva) | PrimoCast 428" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-              </div>
+                 <iframe src="https://www.youtube.com/embed/4X7XgfRbcK0?si=h8di9rJp2xlVXbxp" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen className="w-full h-full" style={{ aspectRatio: '16/9' }}></iframe>
+               </div>
             </div>
           </div>
         </div>

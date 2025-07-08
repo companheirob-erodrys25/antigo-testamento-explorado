@@ -27,38 +27,38 @@ const Benefits: React.FC<BenefitsProps> = ({ className }) => {
           <div className="space-y-8 mb-10">
             <div className="bg-papyrus-100/80 backdrop-blur-sm p-6 rounded-lg shadow-md border border-papyrus-300">
               <div className="flex items-center gap-4 mb-3">
-                <div className="h-12 w-12 flex items-center justify-center rounded-full bg-accent text-white">
-                  <BookOpen className="h-6 w-6" />
+                <div className="flex items-center justify-center rounded-full bg-accent text-white w-[50px] h-[50px] min-w-[50px] min-h-[50px] max-w-[50px] max-h-[50px]">
+                  <BookOpen className="w-[20px] h-[20px]" />
                 </div>
                 <h4 className="text-xl font-serif font-bold">CONHECIMENTO BÍBLICO PROFUNDO</h4>
               </div>
-              <p className="text-lg leading-relaxed ml-16">
+          {/*     <p className="text-lg leading-relaxed ml-16">
                 Se você já tentou ler a Bíblia e sentiu dificuldade para entender o contexto, as profecias e as aplicações, este material vai te ajudar. Com explicações detalhadas e de fácil compreensão, você finalmente poderá interpretar as Escrituras com segurança.
-              </p>
+              </p> */}
             </div>
             
             <div className="bg-papyrus-100/80 backdrop-blur-sm p-6 rounded-lg shadow-md border border-papyrus-300">
               <div className="flex items-center gap-4 mb-3">
-                <div className="h-12 w-12 flex items-center justify-center rounded-full bg-accent text-white">
-                  <Star className="h-6 w-6" />
+                <div className="flex items-center justify-center rounded-full bg-accent text-white w-[50px] h-[50px] min-w-[50px] min-h-[50px] max-w-[50px] max-h-[50px]">
+                  <Star className="w-[20px] h-[20px]" />
                 </div>
                 <h4 className="text-xl font-serif font-bold">FORTALECIMENTO DA FÉ</h4>
               </div>
-              <p className="text-lg leading-relaxed ml-16">
+      {/*         <p className="text-lg leading-relaxed ml-16">
                 Conhecer a Bíblia profundamente fortalece sua fé e te dá mais convicção no seu relacionamento com Deus. Quanto mais você estuda, mais preparado você estará para enfrentar desafios espirituais e viver segundo os princípios bíblicos.
-              </p>
+              </p> */}
             </div>
             
             <div className="bg-papyrus-100/80 backdrop-blur-sm p-6 rounded-lg shadow-md border border-papyrus-300">
               <div className="flex items-center gap-4 mb-3">
-                <div className="h-12 w-12 flex items-center justify-center rounded-full bg-accent text-white">
-                  <Users className="h-6 w-6" />
+                <div className="flex items-center justify-center rounded-full bg-accent text-white w-[50px] h-[50px] min-w-[50px] min-h-[50px] max-w-[50px] max-h-[50px]">
+                  <Users className="w-[20px] h-[20px]" />
                 </div>
                 <h4 className="text-xl font-serif font-bold">APRENDIZADO PARA ENSINAR E COMPARTILHAR A PALAVRA</h4>
               </div>
-              <p className="text-lg leading-relaxed ml-16">
+            {/*   <p className="text-lg leading-relaxed ml-16">
                 Se você deseja ensinar na igreja, liderar um grupo ou discipular outras pessoas, este material será um recurso essencial. Ele vai te equipar com conhecimento sólido e embasamento teológico para ensinar com autoridade e confiança.
-              </p>
+              </p> */}
             </div>
           </div>
           

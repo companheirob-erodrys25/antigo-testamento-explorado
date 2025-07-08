@@ -25,10 +25,6 @@ const Professors: React.FC<ProfessorsProps> = ({ className }) => {
                     id="pastores"
                     className="w-full h-auto object-cover rounded"
                   />
-            
-              <p className="text-center font-medium text-ancient-900">
-                Elias Rodrys & Cintia Rodrys
-              </p>
             </div>
 
               <span className="text-base md:text-lg leading-relaxed">

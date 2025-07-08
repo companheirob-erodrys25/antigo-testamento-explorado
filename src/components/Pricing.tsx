@@ -17,9 +17,9 @@ const Pricing: React.FC<PricingProps> = ({ className }) => {
         </h2>
         
         <div className="max-w-4xl mx-auto" id="pricing-CompBiblic">
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+          <div>
             {/* Product Cards */}
-            <div className="space-y-6">
+            <div className="space-y-6 mt-10">
               {/* Main Product */}
               <div className="bg-white/90 backdrop-blur-sm rounded-lg shadow-lg border-2 border-accent overflow-hidden">
                 <div className="bg-accent text-white py-3 px-6 text-center">
@@ -67,7 +67,7 @@ const Pricing: React.FC<PricingProps> = ({ className }) => {
             
             {/* Pricing Card */}
             <div className="flex flex-col">
-              <div className="bg-papyrus-100 rounded-t-lg p-6 border-t-2 border-l-2 border-r-2 border-accent">
+              <div className="bg-papyrus-100 rounded-t-lg p-6 border-t-2 border-l-2 border-r-2 border-accent mt-5">
                 <div className="text-center mb-6">
                   <h3 className="text-xl font-bold mb-2">VALOR TOTAL DO QUE VOCÊ IRÁ RECEBER</h3>
                   <p className="text-3xl font-serif font-bold text-ancient-900">R$ 578,60</p>
@@ -123,8 +123,7 @@ const Pricing: React.FC<PricingProps> = ({ className }) => {
                 href="https://pay.hotmart.com/M100606980W?checkoutMode=10" 
                 target="_blank" 
                 rel="noopener noreferrer"
-                id="ctamain"
-                
+                className="cta-button inline-block mt-10"
               >
                 QUERO APRENDER A BÍBLIA AGORA MESMO
               </a>
